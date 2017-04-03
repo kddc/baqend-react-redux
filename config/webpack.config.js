@@ -19,9 +19,7 @@ const webpackConfig = {
     root       : project.paths.client(),
     extensions : ['', '.js', '.jsx', '.json']
   },
-  module : {
-    noParse: [/node_modules\/baqend\/dist\/baqend.js/]
-  },
+  module : {}
 }
 // ------------------------------------
 // Entry Points
