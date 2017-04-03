@@ -13,7 +13,7 @@ export const LOGGED_OUT = 'LOGGED_OUT'
 // ------------------------------------
 export function baqendConnect () {
   // change to your app name
-  let appName = 'app-starter'
+  let appName = 'lively-gratin-158'
 
   return dispatch => {
     dispatch({
